@@ -12,8 +12,8 @@ function setup() {
   	menuOpen = false;
  	MaxScrollDistance = -1;
 	const script = document.createElement('script');
-	if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) script.src = 'https://raidresources.github.io/app/App/mobile.js';
-	else script.src = 'https://raidresources.github.io/app/App/desktop.js';
+	if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) script.src = 'https://raidresources.github.io/mobile/mobile.js';
+	else script.src = 'https://raidresources.github.io/desktop/desktop.js';
 	document.body.appendChild(script);
 	remove();
 }
